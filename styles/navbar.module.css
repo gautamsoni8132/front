@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.nav {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    /* border: 2px solid #000; */
+}
+
+.link {
+    text-decoration: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
+}
+
+.logoMenu {
+    display: flex;
+    /* border: 1px solid #000; */
+}
+
+.logoMenu img {
+    width: 150px;
+    height: 60px;
+}
+
+.menu {
+    margin-left: -60px;
+}
+
+.menu .ul {
+    margin-left: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu .ul {
+    text-decoration: none;
+}
+
+.menu .ul li {
+    list-style: none;
+    margin: 10px;
+    color: #0000009f;
+}
+
+.loginButton {
+    /* position: absolute; */
+    /* border: 1px solid #000; */
+}
+
+.loginButton button {
+    margin: 15px;
+    font-size: 15px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.loginButton button:first-child {
+    border: none;
+    background-color: #ffcc00;
+    padding: 10px 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px #000000b2;
+}
+
+.loginButton button:nth-child(even) {
+    color: #fff;
+    border: none;
+    background-color: #0066cc;
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
+
+/* Login */
+.Login {
+    z-index: 999999999999999999;
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    
+}
+
+.loginContainer {
+    z-index: 999999999999999999;
+    width: 500px;
+    margin: 45px auto 0px auto;
+    background-color: #fff;
+    border: 1px solid #fff;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px #0000002d;
+    padding: 10px 0px 30px 0px;
+}
+
+.top,
+.footer {
+    display: flex;
+    justify-content: space-between;
+    color: #000000a0;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.top img {
+    cursor: pointer;
+}
+
+.inputes {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputInfo {
+    border: 1px solid #0000007d;
+    margin: 10px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.inputes h5 {
+    margin: 10px 15px;
+}
+
+.inputes input {
+    border: none;
+    outline: none;
+    margin: 10px;
+    width: 400px;
+}
+
+.inputInfo img {
+    margin: 8px;
+    cursor: pointer;
+}
+
+.footer button {
+    padding: 8px 20px;
+    background-color: #0066cc;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.footer .link {
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 15px;
+}
+
+@media only screen and (max-width:500px) {
+    .loginContainer{
+        width: 100%;
+    }
+}
+
+
+
+@media only screen and (min-width: 460px) and (max-width:900px) {
+    .logoMenu {
+        flex-direction: column;
+    }
+
+    .menu .ul {
+        margin-left: 80px;
+    }
+}
+
+
+@media only screen and (max-width:780px) {
+    .loginButton {
+        position: absolute;
+        /* border: 1px solid #000; */
+        right: 0;
+    }
+}
+
+@media only screen and (max-width:460px) {
+    .menu .ul {
+        margin-left: 50px;
+    }
+
+    .logoMenu {
+        flex-direction: column;
+    }
+
+    .loginButton button {
+        margin: 10px;
+    }
+
+    .loginButton button:first-child {
+        padding: 10px 10px;
+    }
+
+    .loginButton button:nth-child(even) {
+        padding: 10px 20px;
+    }
+}

@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+.testimonialsMain{
+    width: 100%;
+    /* border: 2px solid #000; */
+    padding: 20px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Roboto', sans-serif;
+}
+.testimonials{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    width: 290px;
+    display: flex;
+    border: 2px solid #fff;
+    box-shadow: 2px 2px 2px 2px #0000001e;
+    justify-content: space-around;
+    padding: 5px;
+    box-sizing: border-box;
+    align-items: center;
+    text-align: center;
+    transition: 1000ms;
+    transition: 1s;
+    /* border: 1px solid #000; */
+}
+
+.testimonial1:hover,.testimonial2:hover,.testimonial3:hover{
+    scale: 1.2;
+}
+.testimonials img{
+    /* border: 1px solid #000; */
+    border-radius: 5px;
+    box-shadow: 1px 4px #0000003d;
+}
+.comments{
+    text-align: left;
+    position: relative;
+    padding: 5px;
+}
+.comments h3{
+    font-size: 15px;
+    font-weight: 400;
+    padding: 5px;
+}
+.comments h2{
+    text-align: left;
+    font-size: 15px;
+    color: #000000af;
+}

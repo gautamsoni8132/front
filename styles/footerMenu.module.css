@@ -1,0 +1,51 @@
+.footerMenuMain{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.footerMenuMain h1{
+    font-weight: 500;
+}
+.footerMenuDetail{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+.footerMenuDetail ul{
+    
+    list-style: none;
+}
+.footerMenuDetail ul li{
+    margin: 20px;
+}
+.sellOn{
+    margin-top: 50px;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.sellOn h1{
+    font-weight: 500;
+    color: #000000c7;
+    margin-bottom: 30px;
+}
+.sellOn h3{
+    width: 70%;
+    text-align: left;
+    margin: auto;
+    font-weight: 200;
+}
+
+@media only screen and (max-width:650px){
+    .footerMenuDetail ul li{
+        font-size: 10px;
+        margin: 10px;
+    }
+}
+@media only screen and (max-width:820px){
+    .sellOn h3{
+        width: 95%;
+    }
+}

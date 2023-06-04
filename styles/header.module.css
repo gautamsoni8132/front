@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.header {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: #00b5db;
+}
+
+.main {
+    z-index: 1;
+    position: relative;
+    padding-top: 20px;
+    width: 95%;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-around;
+    overflow: hidden;
+}
+
+.mobileButton {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobileButton h2 {
+    color: #ffcc00;
+    display: none;
+    font-size: 35px;
+}
+
+.mobileButton h1 {
+    color: #fff;
+}
+
+.mobileButton input {
+    border: none;
+    outline: none;
+    padding: 15px 30px;
+    margin: 10px 10px 10px 0px;
+    border-radius: 5px;
+    font-size: 18px;
+    max-width: 350px;
+}
+
+.mobileButton button {
+    width: 200px;
+    border: none;
+    padding: 10px 30px;
+    margin: 10px 10px 10px 0px;
+    border-radius: 5px;
+    background-color: #ffcc00;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.image {
+    margin-bottom: -45px;
+}
+
+.image img {
+    width: 240px;
+}
+
+.online h1 {
+    color: #ffe700;
+    margin: 15px;
+    font-size: 30px;
+}
+
+.online .details {
+    display: flex;
+}
+
+.info {
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.info img {
+    width: 50px;
+}
+
+.info h5 {
+    color: #fff;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+@media screen and (max-width:890px) {
+    .image img {
+        z-index: -1;
+        position: absolute;
+        right: 0;
+        width: 250px;
+        bottom: 0;
+    }
+
+    .mobileButton {
+        margin: 5px;
+        /* border: 2px solid #000; */
+        padding-right: 30%;
+    }
+
+    .online {
+        display: none;
+    }
+
+    .mobileButton h2 {
+        display: block;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .main {
+        width: 100%;
+        padding-left: 5px;
+    }
+
+    .image img {
+        width: 270px;
+    }
+
+    .image {
+        margin-bottom: -85px;
+    }
+
+    .mobileButton input {
+        padding: 10px 20px;
+        margin: 5px 5px 5px 0px;
+        font-size: 12px;
+        max-width: 290px;
+    }
+
+    .mobileButton button {
+        padding: 8px 15px;
+    }
+
+    .mobileButton h1 {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (max-width:490px) {
+    .main {
+        width: 100%;
+        padding-left: 2px;
+    }
+
+    .image img {
+        width: 150px;
+    }
+
+    .image {
+        margin-bottom: -64px;
+    }
+
+    .mobileButton input {
+        padding: 10px 10px;
+        margin: 7px 5px 5px 0px;
+        font-size: 12px;
+    }
+
+    .mobileButton button {
+        padding: 5px 5px;
+        width: 120px;
+    }
+
+    .mobileButton h1 {
+        font-size: 15px;
+    }
+
+    .mobileButton h2 {
+        font-size: 18px;
+    }
+
+}

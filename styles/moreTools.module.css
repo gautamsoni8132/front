@@ -1,0 +1,76 @@
+.amaigingShow{
+    width: 65%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.brandLogo h1{
+    font-size: 50px;
+    margin: 5px;
+}
+.brandLogo h1, .brandLogo h3{
+    color: #4d31ec;
+}
+.zeroCommision{
+    margin: 10px;
+}
+.zeroCommision h3{
+    color: #00000094;
+}
+.knowMore h3{
+color: #4d31ec;
+}
+
+/* MoreTools css start */
+.moreToolsMain{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.moreToolsDetail{
+    width: 98%;
+    margin: auto;
+    display: flex;
+    /* border: 2px solid #000; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.moreToolsInfo{
+    width: 260px;
+    text-align: left;
+    padding: 20px 10px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 2px #00000023;
+    margin: 7px;
+}
+.moreToolsInfo h2{
+    font-size: 18px;
+    padding: 10px 0px;
+    color: #000000c5;
+}
+.moreToolsInfo h3{
+    font-size: 15px;
+    font-weight: 400;
+}
+
+/* Start Selling button  */
+.startSelling{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+.startSelling button{
+    width: 200px;
+    border: none;
+    border-radius: 7px;
+    background-color: #ffcc00;
+    font-size: 20px;
+    padding: 10px 10px;
+    font-weight: 600;
+    color: #000000cc;
+}

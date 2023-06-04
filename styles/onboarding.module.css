@@ -1,0 +1,320 @@
+/* navbar */
+.navBar{
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.logos{
+    display: flex;
+}
+.logos img{
+    padding: 5px;
+    margin: 10px 1px;
+}
+.logos img:first-child{
+     border-right: 1px solid #23212173;
+}
+.menuBar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0% 0% 0% -5%;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
+.flex img{
+    margin: 5px;
+}
+.menuBar h3{
+    font-size: 13px;
+    font-weight: 500;
+    align-items: center;
+}
+.line{
+    margin: -17px 5px 5px 5px;
+}
+.line h2{
+    margin-top: auto;
+    margin-bottom: auto;
+    color: #00000063;
+}
+.navBar h4{
+    float: right;
+    right: 0;
+    color: #0066cc;
+    cursor: pointer;
+}
+.logout{
+    float: right;
+    display: none;
+}
+
+.onboarding{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Bar section */
+.barSection{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    border: 1px solid #f5a623;
+    border-radius: 10px;
+    width: 240px;
+    margin: 20px;
+    height: 380px;
+  
+}
+.barTopSection{
+    background-color: #fff5e3;
+    border: 1px solid #f5a623;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+.barProgress{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.barProgress span{
+    color: #fff;
+    font-size: 15px;
+    width: 50px;
+    height: 20px;
+    background-color: #f5a623;
+    text-align: center;
+    align-items: center;
+    padding: 1px 2px;
+    border: 1px solid #f5a623;
+    border-radius: 10px;
+    margin: 5px;
+}
+.barProgress .barColor{
+    display: flex;
+    justify-content: space-around;
+    width: 10rem;
+    height: 1rem;
+    height: 10px;
+    background-color: #fff;
+    border: 1px solid #f5a623;
+    border-radius: 5px;
+    
+}
+.orange{
+    width: 50%;
+    background-color: #f5a623;
+}
+.white{
+    width: 50%;
+    background-color: #fff;
+}
+
+.completeInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+ 
+}
+.addProducts,.addProducts1{
+    width: 200px;
+    border: 2px solid #3392f3;
+    padding: 7px 0px;
+    margin: 0% auto;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #3392f3;
+    transition: 0.1s ease-in;
+    font-weight: 600;
+    background-color: #fff;
+}
+.addProducts1{
+    visibility: hidden;
+}
+.addProducts:hover,.addProducts1:hover{
+    background-color: #3392f3;
+    color: #fff;
+}
+.completeInfo{
+    margin: 5px 2px;
+}
+.completeInfo h4{
+    font-weight: 200;
+}
+.correctCheck{
+    display: flex;
+    margin: 10px 5px;
+    align-items: center;
+}
+.correctCheck img{
+    margin: 5px;
+}
+
+.formSectionForAddress{
+    margin: 1% 0% 0% 3%;
+    width: 55%;
+}
+.topFormSection{
+    width: 100%;
+    border-bottom: 1px solid #3d464d6c;
+}
+.topFormSection h2 , .topFormSection h4{
+    margin: 20px 0px 20px 0px;
+}
+.topFormSection h2 , .topFormSection h4{
+    font-weight: 600;
+    color: #3d464d;
+}
+.flexSectionInForm{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flexInner{
+    display: flex;
+    align-items: center;
+}
+.flexInner img{
+    margin: 1px 10px;
+}
+.flexSectionInForm h4{
+    font-weight: 200;
+}
+.verify{
+    background-color: #e5f5ee;
+    padding: 2px 5px;
+    color: #46b488 !important;
+    border: 1px solid #e5f5ee;
+    border-radius: 10px;
+}
+.middleGstSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.categories{
+    display: flex;
+    margin: 3% 0% 3% 0%;
+}
+.btn1 ,.btn2{
+    display: flex;
+    align-items: center;
+    border: 1px solid #000000a0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 5px 5px;
+    cursor: pointer;
+}
+.btn1 h2 ,.btn2 h2 ,.btn2 h5{
+    padding: 0px 7px;
+    font-size: 15px;
+}
+.bgdec{
+    background-color: #ebf3fb;
+    border: 1px solid #0066cc;
+}
+.fontcolor{
+    color:#0066cc;
+}
+.gst {
+    border-bottom: 1px solid #3d464d90;
+}
+.gstUse{
+    border: none;
+}
+.gst input , .gstUse input{
+    width: 60%;
+    padding: 12px 10px;
+    border: 1px solid #3d464d;
+    font-size: 15px;
+    outline: none;
+    border-radius: 10px;
+}
+.enterGst h5{
+    margin: 1% 0%;
+    font-weight: 300;
+}
+.saveButton button{
+    background-color:#0066cc;
+    cursor: pointer;
+    font-size: 17px;
+    padding: 8px 22px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+}
+
+
+
+@media only screen and (max-width:750px) {
+    .addProducts1{
+        visibility: visible;
+    }
+    .navBar h4{
+        display: none;
+    }
+    .line h2{
+        display: none;
+    }
+    .navBar{
+        display: block;
+    }
+    .logos{
+        width: 100%;
+    }
+    .menuBar{
+        margin: 0% 0% 0% 1%;
+    }
+    .main{
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .formMain{
+        float:left;
+    }
+    .enterMobile input{
+        width: 100%;
+    }
+    .enterMobile ,.enterGst{
+        width: 100%;
+   }
+   .logoutDiv{
+    width: 100%;
+    border: 1px solid #000;
+   }
+   .logout{
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+   }
+
+
+.barSection{
+    display: none;
+}
+.onboarding{
+    justify-content: center;
+}    
+.formSectionForAddress{
+    width: 100%;
+}
+.gst input , .gstUse input{
+    width: 95%;  
+    margin: 0px auto;
+}    
+
+
+   
+}

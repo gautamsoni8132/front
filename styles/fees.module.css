@@ -1,0 +1,231 @@
+.feesDiv{
+    width: 100%;
+}
+.feesHeading{
+    width: 100%;
+    background-color: #dadde3;
+    color: #47464d;
+    text-align: center;
+    padding: 10px;
+}
+.headerSection{
+    width: 100%;
+    text-align: center;
+    margin: 30px 0px;
+}
+.headerTop{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #47464d;
+}
+.headerTop img{
+    margin: 15px;
+}
+.headerSection h4{
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: 400;
+    text-align: left;
+}
+.mainSection{
+    width: 100%;
+    text-align: center;
+}
+.mainSection h2{
+    font-weight: 400;
+    margin: 20px 0px;
+}
+.mainSectionTop ,.mathSection{
+    width: 90%;
+    display: flex;
+    background-color: #eeeeee;
+    margin: 40px auto;
+    border: 1px solid #fff;
+    border-radius: 10px;
+}
+.infoImage{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100px;
+    height: 100px;
+    border: 1px solid #e5e9ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: #e5e9ee;
+    margin: 10px auto;
+}
+.feeInfo{
+    padding: 20px 10px;
+    margin: 10px;
+}
+.feeInfo h5{
+    padding: 15px 10px;
+    font-weight: 500;
+}
+.mathSection{
+    background-color: #fff;
+    justify-content: center;
+}
+.mathInfo{
+    /* border: 1px solid #000; */
+}
+.mathInfo:nth-child(odd){
+    width: 250px;
+    margin: 0% 1%;
+}
+.mathInfo h2{
+    margin: 20px 0px;
+}
+
+.shippingFeesSection{
+    width: 80%;
+    text-align: center;
+    margin: 0px auto;
+}
+.shippingFeesSection h2{
+    font-weight: 400;
+    margin: 20px 0px;
+}
+.shippingMainSection{
+    text-align: left;
+}
+.shippingMainSection h4{
+    font-weight: 500;
+}
+.shippingMainSection h5{
+    font-weight: 900;
+    text-align: left;
+    margin: 20px 0px;
+}
+.shippingTable{
+    width: 100%;
+    text-align: center;
+    margin: 0px auto;
+}
+.shippingTable ul{
+    list-style: none;
+}
+.topLevelUl{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.topLevelUl li{
+    width: 250px;
+    /* border: 1px solid #000; */
+}
+
+.topLevelUl ul li:nth-child(even){
+   background-color: #47464d10;
+}
+.fistChild{
+    width: 245px;
+    margin: 0px 5px;
+    background-color: #fff;
+}
+.innerLevelUl li{
+    padding: 10px 0px;
+    width: 100%;
+}
+
+.notesSection{
+    width: 80%;
+    margin: 0px auto;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+.notesSection h3{
+    /* margin: 10px 0px; */
+}
+.orderList , .unorderList{
+    padding: 3% 2%;
+
+}
+.notesSection ul li , .notesSection ol li{
+    padding: 10px 0px;
+}
+.collectionFees{
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+}
+.collectionFees h2{
+    margin: 20px 0px;
+}
+.collectionFees h4{
+    text-align: left;
+}
+.collectionFees h2 , .collectionFees h4{
+    font-weight: 400;
+}
+.collectionFees ul li{
+    list-style: none;
+    margin: 15px 0px;
+}
+.collectionTable{
+    width: 80%;
+    margin: 0px auto;
+}
+.collectionUlTop{
+  display: flex;
+  justify-content: space-around;
+}
+.collectionUlInner li{
+    width: 100%;
+    padding: 10px 0px;
+    border: 1px solid #000;
+}
+.collectionUlInner li:nth-child(odd){
+    background-color: #47464d10;
+}
+
+.collectionUlInner li:first-child{
+    background-color: #fff;
+}
+.fixedUlInner li{
+    width: 100%;
+}
+.fulfilmentTypes{
+    text-align: center;
+    width: 90%;
+    margin: 0px auto;
+}
+.fulfilmentTypes h2{
+    font-weight: 500;
+    justify-content: center;
+}
+.infoSectionFlex{
+    display: flex;
+    justify-content: space-around;
+}
+.fulfilmentInfo{
+    padding: 0% 2%;
+}
+.fulfilmentInfo img{
+    margin: 10px;
+}
+.fulfilmentInfo h3{
+    font-weight: 900;
+    margin: 10px 0px;
+ 
+}
+.fulfilmentInfo h3:nth-child(odd){ 
+    font-weight: 500;
+    margin: 5px 0px;
+}
+.fulfilmentInfo h4{
+    color: #0066cc;
+    cursor: pointer;
+}
+@media only screen and (max-width:980px) {
+    .innerLevelUl li{
+        font-size: 13px;
+    }
+}

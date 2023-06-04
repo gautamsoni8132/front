@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+
+.whyBlockMain {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.headingWhyBlock {
+    display: flex;
+    justify-content: space-around;
+    color: #3b3a3a;
+    margin-bottom: 40px;
+}
+
+
+.headingWhyBlock h2 {
+    padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.whySellOnline {
+    width: 100%;
+}
+
+.whySellFlex {
+    display: flex;
+    justify-content: space-around;
+}
+
+.whySellOnlineInfo {
+    width: 300px;
+    text-align: center;
+    /* border: 1px solid #000; */
+    padding: 15px;
+}
+
+.whySellOnlineInfo div {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.number {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0066cc;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #0066cc;
+}
+
+.number h3 {
+    margin: auto;
+    color: #fff;
+}
+
+.heading {
+    color: #161515ef;
+}
+
+.detailSection {
+    text-align: left;
+    font-weight: 100;
+    color: #000000d7;
+}
+
+.firstCheckBox,
+.secondCheckBox {
+    display: flex;
+}
+
+.firstCheckBox h6,
+.secondCheckBox h6 {
+    padding-left: 15px;
+}
+
+.learnMore {
+    /* border: 1px solid #000; */
+    width: 100%;
+    text-align: center;
+}
+
+.learnMore h2 {
+    color: #0066cc;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+.whyFlicart ,.whyFlicartMin2{
+    width: 100%;
+}
+.whyFlicartMin2{
+    display: none;
+}
+.whyFlicartFlex {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.video {
+    width: 50%;
+    margin-top: 50px;
+    text-align: center;
+}
+.video h3{
+    margin-bottom:20px ;
+}
+
+.whyFlicartDetail {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.whyFlicartDetail h1{
+    color: #000000c2;
+    margin-bottom: 55px;
+}
+.flexWhyFlicartdetail{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.whyFlicartInfo{
+    display: flex;
+    width: 270px;
+    text-align: left;
+    margin: 8px;
+}
+.cartSection{
+    display: flex;
+}
+.cartSection img{
+    margin: 5px;
+}
+
+.detailInfo{
+    padding: 5px;
+    font-weight: 200;
+}
+.detailInfo h3{
+    margin-bottom: 10px;
+}
+.detailInfo h4{
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.detailInfo h5{
+    color: #0066cc;
+    padding: 10px;
+}
+
+.whyFlicartDetail button{
+    width: 200px;
+    text-align: center;
+    border: none;
+    background-color: #0066cc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #fff;
+    margin: 3px;
+    cursor: pointer;
+}
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+.show{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.borderBottem {
+    border-bottom: 3px solid #0066cc;
+}
+
+
+/* XXXXXXXXXXXXXXXXXXXXXXXXXXXXX */
+
+@media only screen and (max-width:890px) {
+    .headingWhyBlock{
+        display: none;
+    }
+    .whySellOnline ,.whyFlicart{
+        display: none;
+    }
+    .whyFlicartMin2{
+        display: block;
+        font-family: 'Roboto', sans-serif;
+    }
+    .tittle{
+        width: 70%;
+        margin: auto;
+        padding-bottom: 15px;
+        border-bottom: 2px solid #0066cc;
+    }
+    .whyFlicartFlex{
+        width: 100%;
+        flex-direction: column;
+        margin: auto;
+        /* border: 2px solid #000; */
+        text-align: center;
+    }
+    .video {
+        width: 100%;
+        margin-top: 50px;
+        text-align: center;
+    }
+    .video h3{
+        font-size: 20px;
+        margin-bottom:20px ;
+    }
+    
+    .whyFlicartDetail {
+        width: 100%;
+        display: flex;
+        margin: auto;
+        /* border: 1px solid #000; */
+    }
+    .whyFlicartDetail h1{
+        font-size: 20px;
+        margin-top: 30px;
+    }
+
+    .whyFlicartInfo{
+        width: 100%;
+    }
+
+}
