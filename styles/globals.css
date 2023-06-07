@@ -1,6 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    transition: 3000 ease-in;
+}
+
+.preloader {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    background-image: url(/public/loader.gif);
+    position: absolute;
 }

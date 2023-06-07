@@ -1,77 +1,245 @@
+.menuicon {
+    display: none;
+}
 
-.navbar{
+.navbar {
+    z-index: 1;
     padding-top: 5px;
     display: flex;
     width: 95%;
     justify-content: space-between;
     margin: 0% auto;
     font-family: 'Roboto', sans-serif;
+    color:#5f5e5e;
 }
-.dashboardNav{
+
+.dashboardNav {
     display: flex;
 }
-.navbar ul{
+
+.navbar ul {
     list-style: none;
     display: flex;
     color: #5f5e5e;
     justify-content: space-around;
     margin: auto 0px;
 }
-.navbar ul li{
+
+.navName {
+    position: relative;
+    width: 100px;
+    display: flex;
     color: #5f5e5e;
     font-weight: 500;
     font-size: 15px;
+    margin: 3px 0px;
+    border: 2px solid #fff;
 }
-.navbar ul li:hover{
+
+.navName:hover {
     color: #0066cc;
     border-bottom: 2px solid #0066cc;
 }
 
-.lastNavbar{
+.lastNavbar {
+    height: 25px;
     display: flex;
     justify-content: space-around;
-    margin: auto 0%;
+    margin: 5px 0%;
 }
-.lastNavbar p{
+
+.lastNavbar p {
     margin: 0px 20px;
     font-size: 15px;
     cursor: pointer;
-   
+
 }
-.lastNavbar p:hover{
+
+.lastNavbar p:hover {
     color: #0066cc;
     border-bottom: 2px solid #0066cc;
 }
-.dashboardMain h2{
-  font-weight: 100;
-  margin: 30px;
+.dashboardMain{
+    margin-top: -10px;
+    background-color: #fff;
 }
-.secondNav ul{
+
+.dashboardMain h1 {
+    font-weight: 500;
+    margin: 30px 10px;
+}
+
+.secondNav {
+    margin: 20px 0px;
+}
+
+.secondNav ul {
     list-style: none;
     display: flex;
 }
-.secondNav ul li{
+
+.secondNav ul li {
     color: #5f5e5e;
-    font-size: 15px;
+    font-size: 14px;
 }
-.detailInfo{
+
+.detailInfo {
     width: 100%;
+    z-index: -9 !important;
+}
 
-}
-.tittle{
- display: flex;
-}
 .tittle {
-   
-
+    width: 100%;
+    display: flex;
+    padding: 2% 3%;
+    padding-bottom: 8%;
+    /* border: 1px solid #000; */
 }
-.count{
-    width: 30px;
-    height: 30px;
+
+.tittle h4 {
+    font-weight: 200;
+    margin: 7px 5px;
+    font-size: 15px;
+    /* align-items: center; */
+}
+
+.headInfo {
+    /* margin: 0px 30px; */
+    /* border: 1px solid #000; */
+}
+
+.count {
+    width: 25px !important;
+    height: 25px;
     background-color: #0066cc;
     border: none;
     border-radius: 50%;
     text-align: center;
-    align-items: center;
     color: #fff;
+    padding-top: 3px;
+    margin: 2px;
+}
+
+.firstInput input {
+    width: 300px;
+    margin: 7px 10px;
+    font-size: 15px;
+    padding: 9px 5px;
+    border: 1px solid #838181;
+    border-radius: 10px;
+    outline: none;
+}
+
+.firstInput input:hover {
+    border: 1px solid #0066cc;
+}
+
+.firstInput button {
+    font-size: 17px;
+    padding: 7px 10px;
+    background-color: #0066cc;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.secondInput button {
+    padding: 10px 50px;
+    margin: 5% 0%;
+    background-color: #fff;
+    border: 1px solid #0066cc;
+    border-radius: 10px;
+    color: #0066cc;
+    cursor: pointer;
+}
+
+.navbar2 {
+    z-index: 99999999999999999;
+    width: 100%;
+    height: 100vh;
+    background-color: #e2e2e28e;
+    position: fixed;
+    margin-top: -40px;
+    visibility: hidden;
+}
+
+.menu2Section {
+    width: 280px;
+    height: 100vh;
+    background-color: #fff;
+    position: fixed;
+    overflow-y: scroll;
+}
+.logoCancle{
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+.homeicon{
+    margin: auto 20px;
+}
+.mainmenu2 ul {
+   list-style: none;
+}
+.mainmenu2 ul li{
+    width: 90%;
+    display: flex;
+    margin: 35px auto 0px auto;
+}
+.liststyle{
+    display: flex;
+    justify-content: space-between;
+}
+.liststyle div{
+    display: flex;
+}
+.liststyle div img{
+    margin: auto 20px;
+}
+.childMenu{
+    /* border: 1px solid #000; */
+    margin-left: 25px;
+}
+.childMenu ul li{
+    margin: 15px auto;
+}
+.navabrDropMenu{
+  /* max-width: 180px; */
+  width: 180px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e7e7e7;
+  border-radius: 5px;
+  box-shadow: 2px 4px 4px 3px #7575751f;
+  padding: 10px 20px;
+  background-color: #fff;
+}
+.navabrDropMenu li{
+    margin: 8px 0px;
+    font-size: 14px;
+}
+.navabrDropMenu  li:hover{
+    color: #0066cc;
+}
+@media only screen and (max-width:950px) {
+    .menuicon {
+        display: block;
+        margin: 10px;
+        cursor: pointer;
+    }
+    .navbar2{
+        visibility: visible;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    /* .dashboardMain {
+        position: sticky;
+    } */
+
 }
