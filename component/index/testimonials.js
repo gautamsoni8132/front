@@ -10,12 +10,12 @@ function testimonials() {
                 <div className={`${styles.testimonials} ${styles.testimonial1}`}>
 
                     <div>
-                        <img width='120px' src="/user1.png" alt="user1" />
+                        <img width='120px' src="/user3.jpg" alt="user1" />
                     </div>
 
                     <div className={styles.comments}>
                         <h3>"BBD and BDS sales compounded the consumer demanded which led to a milestone of 150% yoy..."</h3>
-                        <h2>Chaitanya Ramalingegow</h2>
+                        <h2>Megha Ramalingegow</h2>
                     </div>
 
                 </div>
@@ -23,7 +23,7 @@ function testimonials() {
                 <div className={`${styles.testimonials} ${styles.testimonial2}`}>
 
                     <div>
-                        <img width='120px' src="/user1.png" alt="user1" />
+                        <img width='120px' src="/user4.jpg" alt="user1" />
                     </div>
 
                     <div className={styles.comments}>
@@ -41,7 +41,7 @@ function testimonials() {
 
                     <div className={styles.comments}>
                         <h3>"BBD and BDS sales compounded the consumer demanded which led to a milestone of 150% yoy..."</h3>
-                        <h2>Munna Bhai </h2>
+                        <h2>Mohit Gautam </h2>
                     </div>
 
                 </div>

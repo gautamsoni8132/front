@@ -1,5 +1,4 @@
 import { useState } from 'react';
-import Image from 'next/image';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import styles from '../styles/navbar.module.css';
@@ -64,11 +63,11 @@ function navbar() {
             // console.log(token.jwttoken);
             if (result == 400) { return alert('Not Login') } else {
                 alert('login successfully');
-                cookies.set('jwt',token.jwttoken);
+                cookies.set('jwt', token.jwttoken);
                 router.push("/onboarding");
             }
-     
-        
+
+
         } catch (error) {
             console.log(`error: ${error}`)
         }
@@ -125,7 +124,7 @@ function navbar() {
                         </div>
 
                         <h5>
-                            By continuing, I agree to Flipkart’s <Link href="#">Terms of Use </Link> & <Link href="#"> Privacy Policy </Link>
+                            By continuing, I agree to Flicart’s <Link href="#">Terms of Use </Link> & <Link href="#"> Privacy Policy </Link>
                         </h5>
                     </div>
 

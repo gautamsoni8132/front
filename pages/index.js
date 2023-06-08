@@ -57,13 +57,13 @@ export default function Home() {
 
   let init = false;
   useEffect(() => {
-    if(!init){
+    if (!init) {
       init = true;
       check();
     }
-    
+
   }, []);
-  
+
 
   return (
     <>

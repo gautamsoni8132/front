@@ -107,7 +107,7 @@ function whyBlock() {
                                 <br /><br />
 
                                 <div className={styles.heading}>
-                                    <h2>Growth in the online retail market</h2>
+                                    <h2>Growth in the online</h2>
                                 </div>
 
                                 <br /><br />
@@ -122,14 +122,14 @@ function whyBlock() {
                                 <div className={styles.detailByCheckBox}>
 
                                     <div className={styles.firstCheckBox}>
-                                        <img width="17px" src="/checkbox.png" alt="check-box" />
+                                        <img width="17px" src="/checked.png" alt="check-box" />
                                         <h6>Avoid huge investments.</h6>
                                     </div>
 
                                     <br />
 
                                     <div className={styles.secondCheckBox}>
-                                        <img width="17px" src="/checkbox.png" alt="check-box" />
+                                        <img width="17px" src="/checked.png" alt="check-box" />
                                         <h6>Large customer base to sell online anywhere.</h6>
                                     </div>
                                 </div>
@@ -160,14 +160,14 @@ function whyBlock() {
                                 <div className={styles.detailByCheckBox}>
 
                                     <div className={styles.firstCheckBox}>
-                                        <img width="17px" src="/checkbox.png" alt="check-box" />
+                                        <img width="17px" src="/checked.png" alt="check-box" />
                                         <h6>Simple dashboard.</h6>
                                     </div>
 
                                     <br />
 
                                     <div className={styles.secondCheckBox}>
-                                        <img width="17px" src="/checkbox.png" alt="check-box" />
+                                        <img width="17px" src="/checked.png" alt="check-box" />
                                         <h6>Sale events, advertising and promotions.</h6>
                                     </div>
                                 </div>
@@ -198,14 +198,14 @@ function whyBlock() {
                                 <div className={styles.detailByCheckBox}>
 
                                     <div className={styles.firstCheckBox}>
-                                        <img width="17px" src="/checkbox.png" alt="check-box" />
+                                        <img width="17px" src="/checked.png" alt="check-box" />
                                         <h6>Efficient pick-up network.</h6>
                                     </div>
 
                                     <br />
 
                                     <div className={styles.secondCheckBox}>
-                                        <img width="17px" src="/checkbox.png" alt="check-box" />
+                                        <img width="17px" src="/checked.png" alt="check-box" />
                                         <h6>Professional packaging support.</h6>
                                     </div>
                                 </div>
@@ -236,14 +236,14 @@ function whyBlock() {
                                 <div className={styles.detailByCheckBox}>
 
                                     <div className={styles.firstCheckBox}>
-                                        <img width="17px" src="/checkbox.png" alt="check-box" />
+                                        <img width="17px" src="/checked.png" alt="check-box" />
                                         <h6>Fastest payment settlement.</h6>
                                     </div>
 
                                     <br />
 
                                     <div className={styles.secondCheckBox}>
-                                        <img width="17px" src="/checkbox.png" alt="check-box" />
+                                        <img width="17px" src="/checked.png" alt="check-box" />
                                         <h6>Detailed reports to track your payments.</h6>
                                     </div>
                                 </div>
@@ -270,7 +270,7 @@ function whyBlock() {
                         </div>
 
                         <div className={styles.whyFlicartDetail}>
-                            <h1>Advantages of Selling on Flipkart</h1>
+                            <h1>Advantages of Selling on Flicart</h1>
                             <div className={styles.flexWhyFlicartdetail}>
                                 <div className={styles.whyFlicartInfo}>
                                     <div className={styles.cartSection}>
@@ -354,7 +354,7 @@ function whyBlock() {
                         </div>
 
                         <div className={styles.whyFlicartDetail}>
-                            <h1>Brand New Marketplace By Flipkart</h1>
+                            <h1>Brand New Marketplace By Flicart</h1>
                             <div className={styles.flexWhyFlicartdetail}>
                                 <div className={styles.whyFlicartInfo}>
                                     <div className={styles.cartSection}>
@@ -431,17 +431,17 @@ function whyBlock() {
                     <div className={styles.whyFlicartFlex}>
 
                         <div className={styles.video}>
-                            <h3>3 steps to register as a Flipkart Seller</h3>
+                            <h3>3 steps to register as a Flicart Seller</h3>
                             <img width="320px" src="/video.jpg" alt="" />
                             <div style={{ "width": "100%" }}>
                                 <h4 style={{ "marginTop": "30px", "width": "320px", "margin": "auto" }}>
-                                    You need just 3 things to become a Flipkart Seller, your basic details & GSTIN, Pick-up address, and 1 unique product to sell. Yes! this is all that you require to register as a seller on Flipkart.
+                                    You need just 3 things to become a Flicart Seller, your basic details & GSTIN, Pick-up address, and 1 unique product to sell. Yes! this is all that you require to register as a seller on Flicart.
                                 </h4>
                             </div>
                         </div>
 
                         <div className={styles.whyFlicartDetail}>
-                            <h1>You need just 3 things to become a Flipkart Seller.</h1>
+                            <h1>You need just 3 things to become a Flicart Seller.</h1>
                             <div className={styles.flexWhyFlicartdetail}>
 
                                 <div className={styles.whyFlicartInfo}>
@@ -512,7 +512,7 @@ function whyBlock() {
                     </div>
 
                     <div className={styles.whyFlicartDetail}>
-                        <h1>Advantages of Selling on Flipkart</h1>
+                        <h1>Advantages of Selling on Flicart</h1>
                         <div className={styles.flexWhyFlicartdetail}>
                             <div className={styles.whyFlicartInfo}>
                                 <div className={styles.cartSection}>
@@ -595,7 +595,7 @@ function whyBlock() {
                     </div>
 
                     <div className={styles.whyFlicartDetail}>
-                        <h1>Brand New Marketplace By Flipkart</h1>
+                        <h1>Brand New Marketplace By Flicart</h1>
                         <div className={styles.flexWhyFlicartdetail}>
                             <div className={styles.whyFlicartInfo}>
                                 <div className={styles.cartSection}>
@@ -672,17 +672,17 @@ function whyBlock() {
                 <div className={styles.whyFlicartFlex}>
                     <h1 className={styles.tittle}>HOW TO BE A SELLER</h1>
                     <div className={styles.video}>
-                        <h3>3 steps to register as a Flipkart Seller</h3>
+                        <h3>3 steps to register as a Flicart Seller</h3>
                         <img width="320px" src="/video.jpg" alt="" />
                         <div style={{ "width": "100%" }}>
                             <h4 style={{ "marginTop": "30px", "width": "320px", "margin": "auto" }}>
-                                You need just 3 things to become a Flipkart Seller, your basic details & GSTIN, Pick-up address, and 1 unique product to sell. Yes! this is all that you require to register as a seller on Flipkart.
+                                You need just 3 things to become a Flicart Seller, your basic details & GSTIN, Pick-up address, and 1 unique product to sell. Yes! this is all that you require to register as a seller on Flicart.
                             </h4>
                         </div>
                     </div>
 
                     <div className={styles.whyFlicartDetail}>
-                        <h1>You need just 3 things to become a Flipkart Seller.</h1>
+                        <h1>You need just 3 things to become a Flicart Seller.</h1>
                         <div className={styles.flexWhyFlicartdetail}>
 
                             <div className={styles.whyFlicartInfo}>

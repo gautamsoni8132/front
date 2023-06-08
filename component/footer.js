@@ -30,7 +30,7 @@ function footer() {
                             <li>General</li>
                             <li>Fees and Charges</li>
                             <li>Managing your Account</li>
-                            <li>Services and Fulfillment by Flipkart (FBF)</li>
+                            <li>Services and Fulfillment by Flicart (FBF)</li>
                         </ul>
                     </div>
 
@@ -49,22 +49,22 @@ function footer() {
                         </ul>
                     </div>
                 </div>
-                 <br />
+                <br />
 
-                 <div className={styles.lastFooterInfo}>
-                   <img width='150px' src="/footerLogo.png" alt="logo" />
-                   <br />
-                   <h4>©2023 Flicart. All rights reserved</h4>
-                   <div className={styles.flex}>
-                      <h5>Privacy Policy</h5>
-                      <h5>Terms of Usage</h5>
-                   </div>
-                   <div className={styles.flex}>
-                      <img width='40px' height='40px' src="/youtube.png" alt="youtube" />
-                      <img width='40px' height='40px' src="/facebook.png" alt="facebook" />
-                      <img width='40px' height='40px' src="/twitter.png" alt="twitter" />
-                   </div>
-                 </div>
+                <div className={styles.lastFooterInfo}>
+                    <img width='150px' src="/footerLogo.png" alt="logo" />
+                    <br />
+                    <h4>©2023 Flicart. All rights reserved</h4>
+                    <div className={styles.flex}>
+                        <h5>Privacy Policy</h5>
+                        <h5>Terms of Usage</h5>
+                    </div>
+                    <div className={styles.flex}>
+                        <img width='40px' height='40px' src="/youtube.png" alt="youtube" />
+                        <img width='40px' height='40px' src="/facebook.png" alt="facebook" />
+                        <img width='40px' height='40px' src="/twitter.png" alt="twitter" />
+                    </div>
+                </div>
             </div>
         </>
     );
