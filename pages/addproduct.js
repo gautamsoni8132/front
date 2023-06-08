@@ -1,6 +1,7 @@
 import { useState } from 'react';
-import styles from '../styles/dashboard.module.css';
-import Link from 'next/link'
+import styles from '../styles/listings.module.css';
+import Link from 'next/link';
+import Head from 'next/head';
 
 
 function addproduct() {
