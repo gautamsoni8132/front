@@ -267,6 +267,10 @@
     padding: 0px 20px;
     border: 1px solid #dfdcdc;
 }
+.main{
+    height: 90vh;
+    overflow-y: scroll;
+}
 
 .breadCrum {
     display: flex;
@@ -450,6 +454,7 @@
 .autoMobileVirticals1 {
     text-align: center;
     width: 160px;
+    /* border: 2px solid #000; */
 }
 
 .autoMobileVirticals1 ul li {
@@ -458,4 +463,5 @@
     border-bottom: 1px solid #838181;
     padding: 12px 0px;
     cursor: pointer;
+    font-size: 15px;
 }
